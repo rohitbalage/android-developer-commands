@@ -1,0 +1,3 @@
+FOR sha1
+
+./gradlew signingReport

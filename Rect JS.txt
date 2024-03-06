@@ -1,0 +1,11 @@
+React JS:
+
+npx create-native-app app-name
+npm install expo-cli --global
+
+
+//Expo cli 
+
+npm install --global eas-cli 
+npx create-expo-app food-panda  
+cd food-panda && eas init --id 2c92d2cf-07b7-4834-88a3-53ea8b87b49e

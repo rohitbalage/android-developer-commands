@@ -1,0 +1,7 @@
+
+
+
+
+
+VS-code:
+shift + alt +f  : Format code

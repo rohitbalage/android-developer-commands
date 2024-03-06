@@ -1,0 +1,186 @@
+MY GITHUB COMMANDS:
+-------------------------------------------------------------------
+
+
+git clone [repository_url]:
+
+clone the remote repo
+
+--------------------------------------------------------------
+
+git config --get remote.origin.url
+
+Find Remote URL
+
+------------------------------------------------------------
+
+git remote set-url
+
+Reset Remote Origin URL:
+----------------------------------------------------------------
+git pull:
+
+Fetch and merge changes from a remote repository into the current branch.
+
+
+---------------------------------------------------------------------------------
+git branch
+
+List all local branches and show the current branch.
+
+--------------------------------------------------------------------------------------
+
+git checkout [branch_name]:
+
+Switch to a different branch.
+
+
+---------------------------------------------------------------------------------------
+
+git merge [branch_name]:
+
+Merge changes from a specified branch into the current branch.
+
+
+git merge [branch_name]
+
+
+--------------------------------------------------------------------------------------
+
+git log:
+
+
+View a log of commits with their details.
+
+
+------------------------------------------------------------------------------------
+
+git remote -v:
+
+Display URLs of remote repositories associated with the current repository.
+
+
+------------------------------------------------------------------------------------
+
+git fetch
+
+
+Download changes from a remote repository without merging.
+
+----------------------------------------------------------------------------------------
+
+git reset [file]
+
+
+Unstage changes for a specified file.
+
+
+-----------------------------------------------------------------------------------------
+
+git diff
+
+Show changes between commits, the working directory, or branches.
+
+--------------------------------------------------------------------------------------------
+
+git rebase [branch_name]
+
+Combine a sequence of commits into a new base commit, often used to maintain a clean commit history.
+
+
+------------------------------------------------------------------------------------------------------
+
+git cherry-pick [commit]
+
+
+Apply a specific commit from one branch to another.
+
+
+------------------------------------------------------------------------------------------------
+
+
+git stash
+
+Temporarily save changes that are not ready to be committed, allowing you to switch branches or apply changes later.
+
+
+---------------------------------------------------------------------------------------------------------------
+
+git submodule update --init --recursive
+
+
+Initialize and update submodules within a repository.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+git bisect start
+git bisect bad
+git bisect good [commit]
+
+se binary search to find the commit that introduced a bug.
+
+
+-------------------------------------------------------------------------------------------------------
+git tag [tag_name]
+
+
+Create a lightweight tag for a specific commit, often used to mark release points.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+git log --graph --oneline --all
+
+Display a concise and graphical representation of the commit history.
+
+---------------------------------------------------------------------------------------------------------------
+
+git reflog
+
+Show a log of all reference changes, including branches and HEAD movements
+
+----------------------------------------------------------------------------------------------------------------
+
+git clean -fdX
+
+Remove untracked files and directories from the working directory.
+
+------------------------------------------------------------------------------------------------------------
+
+git checkout [commit_hash]
+
+To jump to a specific commit, you can use the following command:
+
+--------------------------------------------------------------------------------------
+
+git checkout -b [new_branch_name] [commit_hash]
+
+Alternatively, if you want to create a new branch at that commit and switch to it:
+
+
+-------------------------------------------------------------------------------------------------------------
+
+git checkout -b [new_branch_name]
+
+
+git switch -c [new_branch_name]
+
+
+If you want to create and immediately switch to the new branch, you can use the -b option with the checkout command
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
