@@ -1,5 +1,62 @@
 MY GITHUB COMMANDS:
+
 -------------------------------------------------------------------
+
+//Shwoing git show as who is commit  last
+
+
+git show
+
+who commit the last?
+
+-------------------------------------------------------------------------
+
+// Undo the modification in a file
+
+git reset HEAD README.md
+
+
+------------------------------------------------------------------------------------
+
+
+// to see the changes you have made so far 
+
+git diff
+
+
+---------------------------------------------------------------------------------------
+//CHECK WHAT CHENGES YOU HAVE DONE IN NEW AND OLD FILE IN P4 MERGE
+
+
+git difftool 
+---------------------------------------------------------------------------------
+
+
+ // check git history:
+
+git hist
+
+
+----------------------------------------------------------------------------------
+
+// navigate between the branches created by git branch
+
+git checkout master
+
+-------------------------------------------------------------------------------------
+
+// MERGE UPDATE BRANCH WITH MAIN BRANCH
+
+git merge updates
+
+---------------------------------------------------------------------------------
+
+//Command to provide history for all the branches 
+
+git log --oneline --graph --decorate --all
+
+
+---------------------------------------------------------------------------------
 
 
 git clone [repository_url]:
