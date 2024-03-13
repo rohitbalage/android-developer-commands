@@ -2,6 +2,11 @@ MY GITHUB COMMANDS:
 
 -------------------------------------------------------------------
 
+To delete remote URL
+
+git remote set-url --delete origin 
+
+-------------------------------------------------------------------------------
 //Shwoing git show as who is commit  last
 
 
