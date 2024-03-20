@@ -1,5 +1,25 @@
 MY GITHUB COMMANDS:
 
+
+If you clone the repository and wants to remove particular commit before:
+
+git filter-branch --force --commit-filter 'if [ "$GIT_COMMIT" = "0b7e1d59f72f803fdcae796d7df1e1641037b12c" ]; then skip_commit "$@"; else git commit-tree "$@"; fi' HEAD
+
+
+and then push
+
+
+git push origin main --force
+
+
+------------------------------------------------------------------------
+
+Change Remote Origin URL
+
+
+git remote set-url origin <your_repository_URL>
+
+
 -------------------------------------------------------------------
 
 To delete remote URL
